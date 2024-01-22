@@ -9,8 +9,8 @@ int main()
 	
 	cout <<endl;
 	cout <<"----------- Warnet KKB Ikopin ---------- \n";
-    cout <<"------------------------------------------ \n";
-    cout << endl;
+        cout <<"------------------------------------------ \n";
+        cout << endl;
 	
 	cout<<"=========================================="<<endl;
 	cout<<"No Komputer : ";cin>>nocom;
