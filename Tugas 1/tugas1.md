@@ -13,41 +13,9 @@ Flowchart :
 
 
 ## Pseudocode
-```
-Algoritma Billing_Warnet
-{Menghitung harga yang harus dibayar pengguna sesuai durasi penggunaan 
-komputer di warnet}
-Deklarasi
-string nama;
-int nocom,jam1,mnt1,dtk1,jam2,mnt2,dtk2,jmldtk,totalbayar;
-int tarif=5000;
-Deskripsi
-write (“No Komputer :”);
-read (nocom);
-write (“Nama Pelanggan :”);
-read (nama);
-write (“Jam Mulai: “);
-read (jam1);
-write (“Menit Mulai: “);
-read (mnt1);
-write (“Detik Mulai: “);
-read (dtk1);
-write (“Jam Selesai: “);
-read (“jam2”);
-write (“Menit Selesai: “);
-read (mnt2);
-write (“Detik Selesai: “);
-read (dtk2);
-jmldtk = (jam2-jam1)*3600 + (mnt2-mnt1)*60 + (dtk2-dtk1);
-totalbayar = jmldtk * tarif / 3600;
-write (“No Komputer: “);
-read (nocom);
-write (“Nama Pelanggan: “);
-read (nama);
-write (“Lama Penggunaan: “);
-write (“Total Bayar: “);
-read (totalbayar);
-```
+
+<img width="394" alt="Screenshot 2024-01-22 233325" src="https://github.com/nalesyn/TugasAlpro/assets/144500877/46ee4aee-8370-4ce6-92de-c79668643a1d">
+
 
 ## Program
 ```c++
